@@ -304,7 +304,7 @@ func ExampleCompose() {
 	//Output: -25
 }
 
-func ExampleCompse_multiReturn() {
+func ExampleCompose_multiReturn() {
 	double := func(x interface{}) (interface{}, interface{}) {
 		return x, x
 	}
